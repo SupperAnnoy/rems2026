@@ -70,10 +70,9 @@ body {
   position: relative;
   z-index: 1;
   max-width: 1000px;
-  padding: 30px 40px;
-  border-radius: 18px;
-  background: rgba(0, 0, 0, 0.18);  
-  backdrop-filter: blur(3px);
+  background: none;
+  backdrop-filter: none;
+
 }
 
 .hero-text {
@@ -85,13 +84,13 @@ body {
 
 .hero-text-main {
   font-size: 48px;
-  margin-bottom: 22px;
+  margin-bottom: 38px;
 }
 
 .hero-text-sub {
   font-size: 30px;
-  line-height: 1.6;
-  margin-top: 12px;
+  line-height: 1.5;
+  margin-top: 8px;
 }
 
 /* Main content */
